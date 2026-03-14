@@ -1,0 +1,11 @@
+# Conda environment
+env/
+__pycache__/
+*.pyc
+
+# Data files
+data/
+
+# IDE settings
+.vscode/
+.idea/
