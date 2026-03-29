@@ -62,6 +62,7 @@ def get_position():
 
 if effector.connect():
     initialize_standard()
+    time.sleep(2)
     set_position(500)
     time.sleep(1)
     get_position()
@@ -69,6 +70,8 @@ if effector.connect():
     set_position(300)
     time.sleep(1)
     get_position()
+    time.sleep(4)
+    set_position(0)
 
 else:
     print("Effector is not connected. Make sure permissions are correct.")
