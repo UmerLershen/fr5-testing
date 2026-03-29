@@ -1,7 +1,8 @@
 from pymodbus.client import ModbusSerialClient as Client
+import time
 
-#effector = Client(port = '/dev/ttyUSB0', baudrate=115200, bytesize=8 , parity='N', stopbits=1)
-#effector.connect()
+effector = Client(port = '/dev/ttyUSB0', baudrate=115200, bytesize=8 , parity='N', stopbits=1)
+
 
 def set_position(num):
     if (num<0 or num>1000):
@@ -58,3 +59,12 @@ def get_position():
     print(f"Current Position: {state}")
     
 
+
+if effector.connect():
+    set_position(500)
+    time.sleep(1)
+    get_position()
+    time.sleep(4)
+    set_position(300)
+    time.sleep(1)
+    get_position()
