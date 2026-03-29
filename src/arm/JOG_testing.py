@@ -1,3 +1,11 @@
+from pathlib import Path
+import sys
+
+project_root = Path(__file__).resolve()
+print(str(project_root))
+sys.path.append(str(project_root))
+
+
 from fairino import Robot
 import time
 # Establish a connection with the robot controller and return a robot object if the connection is successful
