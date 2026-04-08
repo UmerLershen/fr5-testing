@@ -1,3 +1,9 @@
+from pathlib import Path
+import sys
+
+project_root = Path(__file__).resolve().parent.parent
+sys.path.append(str(project_root))
+
 from fairino import Robot
 import time
 
