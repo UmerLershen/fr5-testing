@@ -35,4 +35,4 @@ print(f"movel errcode:{rtn}")
 
 time.sleep(5)
 
-robot.MoveJ(joint_pos = [-90,-90,-90,-90,90,90], user = 0, tool= 0)
+robot.MoveJ(joint_pos = [-90,-90,-90,-90,90,-90], user = 0, tool= 0)
