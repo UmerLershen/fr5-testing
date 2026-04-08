@@ -32,3 +32,7 @@ robot.SetSpeed(20)
 
 rtn = robot.MoveL(desc_pos=desc_pos2, tool=tool, user=user, vel=vel, acc=acc, ovl=ovl, blendR=blendR, blendMode=blendMode, exaxis_pos=epos, search=search, offset_flag=flag, offset_pos=offset_pos,oacc=oacc, velAccParamMode=velAccMode)
 print(f"movel errcode:{rtn}")
+
+time.sleep(5)
+
+robot.MoveJ(joint_pos = [-90,-90,-90,-90,90,90], user = 0, tool= 0)
