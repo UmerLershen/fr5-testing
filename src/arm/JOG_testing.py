@@ -29,4 +29,7 @@ for i in range(6):
     time.sleep(1)
     robot.StopJOG(9)
     time.sleep(1)
+
+robot.MoveJ(joint_pos = [-90,-90,-90,-90,90,90], user = 0, tool= 0)
+
 robot.CloseRPC()
