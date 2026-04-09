@@ -1,0 +1,308 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/localadmin/project/ros2-testing/ros2-testing/bin/python3 (found version "3.10.20") found components: Interpreter 
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /home/localadmin/project/ros2-testing/ros2-testing/bin/python3  
+-- Found Python3: /home/localadmin/project/ros2-testing/ros2-testing/bin/python3 (found version "3.10.20") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/localadmin/project/ros2-testing/ros2_ws/build/fairino_msgs
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_fairino_msgs
+running egg_info
+creating fairino_msgs.egg-info
+writing fairino_msgs.egg-info/PKG-INFO
+writing dependency_links to fairino_msgs.egg-info/dependency_links.txt
+writing top-level names to fairino_msgs.egg-info/top_level.txt
+writing manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+reading manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+writing manifest file 'fairino_msgs.egg-info/SOURCES.txt'
+[  1%] Built target ament_cmake_python_build_fairino_msgs_egg
+[  1%] Built target fairino_msgs__rosidl_generator_type_description
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  5%] Built target fairino_msgs__cpp
+[ 12%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_c.dir/rosidl_generator_c/fairino_msgs/srv/detail/remote_cmd_interface__description.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_c.dir/rosidl_generator_c/fairino_msgs/srv/detail/remote_cmd_interface__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_c.dir/rosidl_generator_c/fairino_msgs/srv/detail/remote_script_content__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_c.dir/rosidl_generator_c/fairino_msgs/srv/detail/remote_script_content__type_support.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_c.dir/rosidl_generator_c/fairino_msgs/srv/detail/remote_script_content__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_c.dir/rosidl_generator_c/fairino_msgs/msg/detail/robot_nonrt_state__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_c.dir/rosidl_generator_c/fairino_msgs/srv/detail/remote_cmd_interface__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_c.dir/rosidl_generator_c/fairino_msgs/msg/detail/robot_nonrt_state__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_c.dir/rosidl_generator_c/fairino_msgs/msg/detail/robot_nonrt_state__type_support.c.o[0m
+[ 24%] [32m[1mLinking C shared library libfairino_msgs__rosidl_generator_c.so[0m
+[ 24%] Built target fairino_msgs__rosidl_generator_c
+[ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_msgs/srv/remote_cmd_interface__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_msgs/msg/robot_nonrt_state__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fairino_msgs/srv/remote_script_content__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_msgs/srv/remote_cmd_interface__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_msgs/msg/robot_nonrt_state__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fairino_msgs/srv/remote_script_content__type_support.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libfairino_msgs__rosidl_typesupport_c.so[0m
+[ 48%] Built target fairino_msgs__rosidl_typesupport_c
+[ 50%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_msgs/srv/detail/remote_cmd_interface__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_msgs/srv/detail/remote_script_content__type_support.cpp.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_msgs/srv/detail/remote_cmd_interface__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_msgs/srv/detail/remote_script_content__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fairino_msgs/msg/detail/robot_nonrt_state__type_support.c.o[0m
+[ 59%] [32m[1mLinking C shared library libfairino_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fairino_msgs/msg/detail/robot_nonrt_state__type_support.cpp.o[0m
+[ 61%] Built target fairino_msgs__rosidl_typesupport_introspection_c
+[ 62%] [32m[1mLinking CXX shared library libfairino_msgs__rosidl_typesupport_cpp.so[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_msgs/srv/detail/dds_fastrtps/remote_cmd_interface__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_msgs/srv/detail/dds_fastrtps/remote_script_content__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fairino_msgs/msg/detail/dds_fastrtps/robot_nonrt_state__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_msgs/srv/detail/remote_cmd_interface__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_msgs/srv/detail/remote_script_content__type_support_c.cpp.o[0m
+[ 72%] Built target fairino_msgs__rosidl_typesupport_cpp
+[ 74%] [32mBuilding CXX object CMakeFiles/fairino_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fairino_msgs/msg/detail/robot_nonrt_state__type_support_c.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libfairino_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 75%] Built target fairino_msgs__rosidl_typesupport_introspection_cpp
+[ 77%] [32m[1mLinking CXX shared library libfairino_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 79%] [32m[1mLinking CXX shared library libfairino_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 79%] Built target fairino_msgs__rosidl_typesupport_fastrtps_cpp
+[ 79%] Built target fairino_msgs__rosidl_typesupport_fastrtps_c
+[ 79%] Built target fairino_msgs
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target fairino_msgs__py
+[ 87%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_py.dir/rosidl_generator_py/fairino_msgs/srv/_remote_cmd_interface_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_py.dir/rosidl_generator_py/fairino_msgs/msg/_robot_nonrt_state_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/fairino_msgs__rosidl_generator_py.dir/rosidl_generator_py/fairino_msgs/srv/_remote_script_content_s.c.o[0m
+[ 88%] [32m[1mLinking C shared library libfairino_msgs__rosidl_generator_py.so[0m
+[ 88%] Built target fairino_msgs__rosidl_generator_py
+[ 94%] [32mBuilding C object CMakeFiles/fairino_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/fairino_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/fairino_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.so[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target fairino_msgs_s__rosidl_typesupport_introspection_c
+[100%] Built target fairino_msgs_s__rosidl_typesupport_fastrtps_c
+[100%] Built target fairino_msgs_s__rosidl_typesupport_c
+-- Install configuration: ""
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/ament_index/resource_index/rosidl_interfaces/fairino_msgs
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface.json
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent.json
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/msg/RobotNonrtState.json
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_script_content.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_cmd_interface.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__functions.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__description.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__description.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__struct.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__struct.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__functions.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__functions.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__functions.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/robot_nonrt_state.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__struct.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__functions.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__description.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__functions.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/environment/library_path.sh
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/environment/library_path.dsv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_introspection_c.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_introspection_c.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_script_content.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/remote_cmd_interface.hpp
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__traits.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__traits.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__struct.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__struct.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__builder.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__builder.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.hpp
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__struct.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__builder.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__traits.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/robot_nonrt_state.hpp
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/dds_fastrtps
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_script_content__type_support.cpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__type_support.cpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/srv/detail/remote_cmd_interface__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg
+-- Up-to-date: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__type_support.cpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/include/fairino_msgs/fairino_msgs/msg/detail/robot_nonrt_state__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/environment/pythonpath.sh
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/environment/pythonpath.dsv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs-0.0.0-py3.10.egg-info
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.so
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/__init__.py
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/srv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/srv/_remote_script_content.py
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/srv/__init__.py
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/srv/_remote_cmd_interface_s.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/srv/_remote_cmd_interface.py
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/srv/_remote_script_content_s.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/msg
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/msg/__init__.py
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/msg/_robot_nonrt_state.py
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/msg/_robot_nonrt_state_s.c
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/_fairino_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs'...
+Compiling '/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/__init__.py'...
+Listing '/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/msg'...
+Compiling '/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/msg/__init__.py'...
+Compiling '/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/msg/_robot_nonrt_state.py'...
+Listing '/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/srv'...
+Compiling '/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/srv/__init__.py'...
+Compiling '/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/srv/_remote_cmd_interface.py'...
+Compiling '/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/srv/_remote_script_content.py'...
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/python3.10/site-packages/fairino_msgs/fairino_msgs_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib/libfairino_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface.idl
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent.idl
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/msg/RobotNonrtState.idl
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteCmdInterface.srv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/srv/RemoteScriptContent.srv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/msg/RobotNonrtState.msg
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/ament_index/resource_index/package_run_dependencies/fairino_msgs
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/ament_index/resource_index/parent_prefix_path/fairino_msgs
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/environment/path.sh
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/environment/path.dsv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/local_setup.bash
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/local_setup.sh
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/local_setup.zsh
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/local_setup.dsv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/package.dsv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/ament_index/resource_index/packages/fairino_msgs
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/export_fairino_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgsConfig.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/cmake/fairino_msgsConfig-version.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/share/fairino_msgs/package.xml

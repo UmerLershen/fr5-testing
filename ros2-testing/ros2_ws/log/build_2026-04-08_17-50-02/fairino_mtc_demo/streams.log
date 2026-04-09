@@ -1,0 +1,36 @@
+[0.016s] Invoking command in '/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_mtc_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/localadmin/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/localadmin/ros2_control_ws/install/rqt_controller_manager:/home/localadmin/ros2_control_ws/install/ros2controlcli:/home/localadmin/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-testing) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2-testing) /usr/bin/cmake /home/localadmin/project/ros2-testing/ros2_ws/src/fairino_mtc_demo -DCMAKE_INSTALL_PREFIX=/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo
+[0.066s] -- The C compiler identification is GNU 13.3.0
+[0.117s] -- The CXX compiler identification is GNU 13.3.0
+[0.131s] -- Detecting C compiler ABI info
+[0.216s] -- Detecting C compiler ABI info - done
+[0.224s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.224s] -- Detecting C compile features
+[0.224s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.325s] -- Detecting CXX compiler ABI info - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.333s] -- Detecting CXX compile features
+[0.334s] -- Detecting CXX compile features - done
+[0.340s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.440s] -- Found Python3: /home/localadmin/project/ros2-testing/ros2-testing/bin/python3 (found version "3.10.20") found components: Interpreter 
+[0.588s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.588s]   By not providing "Findmoveit_task_constructor_core.cmake" in
+[0.589s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.589s]   configuration file provided by "moveit_task_constructor_core", but CMake
+[0.589s]   did not find one.
+[0.589s] 
+[0.589s]   Could not find a package configuration file provided by
+[0.589s]   "moveit_task_constructor_core" with any of the following names:
+[0.589s] 
+[0.589s]     moveit_task_constructor_coreConfig.cmake
+[0.589s]     moveit_task_constructor_core-config.cmake
+[0.589s] 
+[0.589s]   Add the installation prefix of "moveit_task_constructor_core" to
+[0.589s]   CMAKE_PREFIX_PATH or set "moveit_task_constructor_core_DIR" to a directory
+[0.589s]   containing one of the above files.  If "moveit_task_constructor_core"
+[0.589s]   provides a separate development package or SDK, be sure it has been
+[0.590s]   installed.
+[0.590s] 
+[0.590s] [0m
+[0.590s] -- Configuring incomplete, errors occurred!
+[0.593s] Invoked command in '/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_mtc_demo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/localadmin/ros2_control_ws/install/rqt_joint_trajectory_controller:/home/localadmin/ros2_control_ws/install/rqt_controller_manager:/home/localadmin/ros2_control_ws/install/ros2controlcli:/home/localadmin/ros2_control_ws/install/ros2_controllers_test_nodes:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(ros2-testing) (base) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(ros2-testing) /usr/bin/cmake /home/localadmin/project/ros2-testing/ros2_ws/src/fairino_mtc_demo -DCMAKE_INSTALL_PREFIX=/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo

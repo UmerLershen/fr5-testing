@@ -1,0 +1,76 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found moveit_task_constructor_core: 0.1.4 (/opt/ros/jazzy/share/moveit_task_constructor_core/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_mtc_demo/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/localadmin/project/ros2-testing/ros2_ws/build/fairino_mtc_demo
+[ 50%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+In file included from [01m[K/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_mtc_demo/src/mtc_node.cpp:3[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_core/moveit/planning_scene/planning_scene.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+In file included from [01m[K/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_mtc_demo/src/mtc_node.cpp:4[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/planning_scene_interface/planning_scene_interface.h:50:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   50 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_mtc_demo/src/mtc_node.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::[01;32m[K_createTask[m[K()[m[K’:
+[01m[K/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_mtc_demo/src/mtc_node.cpp:112:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcurrent_state_ptr[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  112 |   mtc::Stage* [01;35m[Kcurrent_state_ptr[m[K = nullptr;
+      |               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_mtc_demo/src/mtc_node.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::[01;32m[K_createReverseTask[m[K()[m[K’:
+[01m[K/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_mtc_demo/src/mtc_node.cpp:273:15:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcurrent_state_ptr[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  273 |   mtc::Stage* [01;35m[Kcurrent_state_ptr[m[K = nullptr;
+      |               [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable mtc_node[0m
+[100%] Built target mtc_node
+-- Install configuration: ""
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/lib/fairino_mtc_demo/mtc_node
+-- Set non-toolchain portion of runtime path of "/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/lib/fairino_mtc_demo/mtc_node" to ""
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/launch
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/launch/mtc_demo_app.launch.py
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/launch/mtc.rviz
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/launch/mtc_demo_env.launch.py
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/ament_index/resource_index/package_run_dependencies/fairino_mtc_demo
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/ament_index/resource_index/parent_prefix_path/fairino_mtc_demo
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/environment/ament_prefix_path.sh
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/environment/ament_prefix_path.dsv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/environment/path.sh
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/environment/path.dsv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/local_setup.bash
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/local_setup.sh
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/local_setup.zsh
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/local_setup.dsv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/package.dsv
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/ament_index/resource_index/packages/fairino_mtc_demo
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/cmake/fairino_mtc_demoConfig.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/cmake/fairino_mtc_demoConfig-version.cmake
+-- Installing: /home/localadmin/project/ros2-testing/ros2_ws/install/fairino_mtc_demo/share/fairino_mtc_demo/package.xml

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-e63374e07b49ce268865.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fairino_hardware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_hardware-Release-ce494b98aaf5d938a02c.json",
+					"name" : "fairino_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fairino_hardware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fairino_hardware_uninstall-Release-1d1b291bee2a15ab88c8.json",
+					"name" : "fairino_hardware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_cmd_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_cmd_server-Release-0c7f009a4f46466ca0d4.json",
+					"name" : "ros2_cmd_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_test_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_test_client-Release-95492caeb3f8b43a89be.json",
+					"name" : "srv_test_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9a57a40e638c220fee74.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware",
+		"source" : "/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_hardware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

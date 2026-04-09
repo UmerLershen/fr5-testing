@@ -1,0 +1,34 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/localadmin/project/ros2-testing/ros2-testing/bin/python3 (found version "3.10.20") found components: Interpreter 
+[31mCMake Error at CMakeLists.txt:10 (find_package):
+  By not providing "Findmoveit_task_constructor_core.cmake" in
+  CMAKE_MODULE_PATH this project has asked CMake to find a package
+  configuration file provided by "moveit_task_constructor_core", but CMake
+  did not find one.
+
+  Could not find a package configuration file provided by
+  "moveit_task_constructor_core" with any of the following names:
+
+    moveit_task_constructor_coreConfig.cmake
+    moveit_task_constructor_core-config.cmake
+
+  Add the installation prefix of "moveit_task_constructor_core" to
+  CMAKE_PREFIX_PATH or set "moveit_task_constructor_core_DIR" to a directory
+  containing one of the above files.  If "moveit_task_constructor_core"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+[0m
+-- Configuring incomplete, errors occurred!

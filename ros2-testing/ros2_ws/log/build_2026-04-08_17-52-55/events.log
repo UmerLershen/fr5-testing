@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000129] (-) JobUnselected: {'identifier': 'fairino5_v6_moveit2_config'}
+[0.000156] (-) JobUnselected: {'identifier': 'fairino_description'}
+[0.000171] (-) JobUnselected: {'identifier': 'fairino_hardware'}
+[0.000187] (-) JobUnselected: {'identifier': 'fairino_msgs'}
+[0.000215] (-) JobUnselected: {'identifier': 'fairino_mtc_demo'}
+[0.000295] (-) EventReactorShutdown: {}
