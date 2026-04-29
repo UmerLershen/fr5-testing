@@ -36,14 +36,24 @@ place_pos =  [-5.995489597320557, -100.35346984863281, -120.6157455444336, -48.2
 
 robot.MoveJ(joint_pos=pick_pos , tool = 0 , user = 0 , vel = 60 , acc = 60)
 endEff.set_position(0)
-
 robot.MoveJ(joint_pos= in_between_1, tool= 0 , user= 0 , vel = 60 , acc= 60)
 robot.MoveJ(joint_pos= stand_pos, tool= 0 , user= 0 , vel = 60 , acc= 60)
 robot.MoveJ(joint_pos= in_between_2, tool= 0 , user= 0 , vel = 60 , acc= 60)
-
 robot.MoveJ(joint_pos=place_pos , tool=0,user=0 , vel= 60 , acc = 60)
 
 endEff.set_position(1000)
+
+
+endEff.set_position(0)
+
+#robot.MoveJ(joint_pos=place_pos , tool=0,user=0 , vel= 60 , acc = 60)
+robot.MoveJ(joint_pos= in_between_2, tool= 0 , user= 0 , vel = 60 , acc= 60)
+robot.MoveJ(joint_pos= stand_pos, tool= 0 , user= 0 , vel = 60 , acc= 60)
+robot.MoveJ(joint_pos= in_between_1, tool= 0 , user= 0 , vel = 60 , acc= 60)
+robot.MoveJ(joint_pos=pick_pos , tool = 0 , user = 0 , vel = 60 , acc = 60)
+
+endEff.set_position(1000)
+
 
 robot.MoveJ(joint_pos= stand_pos , tool=0, user=0,vel=60,acc=60)
 
