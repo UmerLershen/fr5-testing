@@ -449,7 +449,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/localadmin/project/ros2-testing/ros2-testing/bin/python3][cfound components: Interpreter ][v3.10.20()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/localadmin/project/ros2-testing/ros2-testing/bin/python3][cfound components: Interpreter ][v3.12.3()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //Compiler reason failure
@@ -459,7 +459,7 @@ _Python3_Development_REASON_FAILURE:INTERNAL=
 //Path to a program.
 _Python3_EXECUTABLE:INTERNAL=/home/localadmin/project/ros2-testing/ros2-testing/bin/python3
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;20;64;32;;cpython-310-x86_64-linux-gnu;abi3;/usr/lib/python3.10;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.10;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.10/site-packages;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.10/site-packages
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;32;;cpython-312-x86_64-linux-gnu;abi3;/usr/lib/python3.12;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.12;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.12/site-packages;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.12/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=c38cdb79d968dbcd4fd8e1bd8d73cf3b
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=

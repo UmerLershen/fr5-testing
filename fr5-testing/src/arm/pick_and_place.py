@@ -35,17 +35,25 @@ in_between_2 = [-8.838881492614746, -86.78807830810547, -110.05733489990234, -73
 place_pos =  [-5.995489597320557, -100.35346984863281, -120.6157455444336, -48.209747314453125, 90.70877838134766, -55.01539611816406]
 
 robot.MoveJ(joint_pos=pick_pos , tool = 0 , user = 0 , vel = 60 , acc = 60)
+time.sleep(1)
 endEff.set_position(0)
+time.sleep(1)
+
 robot.MoveJ(joint_pos= in_between_1, tool= 0 , user= 0 , vel = 60 , acc= 60)
 robot.MoveJ(joint_pos= stand_pos, tool= 0 , user= 0 , vel = 60 , acc= 60)
 robot.MoveJ(joint_pos= in_between_2, tool= 0 , user= 0 , vel = 60 , acc= 60)
 robot.MoveJ(joint_pos=place_pos , tool=0,user=0 , vel= 60 , acc = 60)
-
+time.sleep(1)
 endEff.set_position(1000)
 
 
-endEff.set_position(0)
+robot.MoveJ(joint_pos= stand_pos, tool= 0 , user= 0 , vel = 60 , acc= 60)
+time.sleep(1)
+robot.MoveJ(joint_pos=place_pos , tool=0,user=0 , vel= 60 , acc = 60)
+time.sleep(1)
 
+endEff.set_position(0)
+time.sleep(1)
 #robot.MoveJ(joint_pos=place_pos , tool=0,user=0 , vel= 60 , acc = 60)
 robot.MoveJ(joint_pos= in_between_2, tool= 0 , user= 0 , vel = 60 , acc= 60)
 robot.MoveJ(joint_pos= stand_pos, tool= 0 , user= 0 , vel = 60 , acc= 60)

@@ -43,55 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_hardware/fairino_hardware.xml")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware" TYPE EXECUTABLE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ros2_cmd_server")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server"
-         OLD_RPATH "/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_hardware/libfairino/lib:/opt/ros/jazzy/lib:/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/ros2_cmd_server")
-    endif()
-  endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/CMakeFiles/ros2_cmd_server.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware" TYPE EXECUTABLE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/srv_test_client")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client"
-         OLD_RPATH "/opt/ros/jazzy/lib:/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/srv_test_client")
-    endif()
-  endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/CMakeFiles/srv_test_client.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
+  include("/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -106,7 +58,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/libfairino_hardware.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/libfairino_hardware.so"
-         OLD_RPATH "/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_hardware/libfairino/lib:/home/localadmin/ros2_control_ws/install/hardware_interface/lib:/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib:/home/localadmin/ros2_control_ws/install/joint_limits/lib:/opt/ros/jazzy/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/home/localadmin/ros2_control_ws/install/realtime_tools/lib:/home/localadmin/ros2_control_ws/install/control_msgs/lib:"
+         OLD_RPATH "/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_hardware/libfairino/lib:/opt/ros/jazzy/lib:/home/localadmin/project/ros2-testing/ros2_ws/install/fairino_msgs/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/fairino_hardware/libfairino_hardware.so")
@@ -115,66 +67,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_environment_hooks/library_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/fairino_hardware")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/fairino_hardware")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/environment" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_index/share/ament_index/resource_index/packages/fairino_hardware")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/hardware_interface__pluginlib__plugin" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_index/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/fairino_hardware")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -198,25 +90,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/CMakeFiles/Export/ee38bc5281cbcb73834308854784e46d/fairino_hardwareExport-release.cmake")
   endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware/cmake" TYPE FILE FILES
-    "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_core/fairino_hardwareConfig.cmake"
-    "/home/localadmin/project/ros2-testing/ros2_ws/build/fairino_hardware/ament_cmake_core/fairino_hardwareConfig-version.cmake"
-    )
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fairino_hardware" TYPE FILE FILES "/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_hardware/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

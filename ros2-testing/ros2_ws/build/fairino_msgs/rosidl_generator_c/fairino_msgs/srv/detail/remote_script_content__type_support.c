@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "fairino_msgs/srv/detail/remote_script_content__type_support.h"
-#include "fairino_msgs/srv/detail/remote_script_content__struct.h"
-#include "fairino_msgs/srv/detail/remote_script_content__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "fairino_msgs/srv/detail/remote_script_content__functions.h"
+#include "fairino_msgs/srv/detail/remote_script_content__struct.h"
+#include "fairino_msgs/srv/detail/remote_script_content__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

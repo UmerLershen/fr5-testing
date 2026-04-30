@@ -15,19 +15,14 @@ myEndEffector = endeffector.endeffector()
 #robot.Mode(1)
 #robot.DragTeachSwitch(state = 1)
 #time.sleep(5)
-input("Press enter to continue")
-#robot.DragTeachSwitch(state=0
+list_pos =[]
+while(input("Press enter to continue and s to stop") != "s"):
+    list_pos.append(robot.GetActualJointPosDegree(flag=1))
 
 
-#myEndEffector.set_force(100)
-#myEndEffector.set_position(0)
-pickup1 = robot.GetActualJointPosDegree(flag=1)
-print(pickup1)
 
-input("Press enter to continue")
-
-pickup2 = robot.GetActualJointPosDegree(flag=1)
 #myEndEffector.set_position(1000)
-print(pickup2)
+for i in list_pos:
+    print(i)
 
 robot.MoveJ(joint_pos = [-90,-90,-90,-90,90,-90], user = 0, tool= 0)

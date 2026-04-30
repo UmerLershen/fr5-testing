@@ -328,17 +328,17 @@ fairino_msgs__rosidl_typesupport_cpp/fast:
 .PHONY : fairino_msgs__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_fairino_msgs
+# Target rules for targets named ament_cmake_python_symlink_fairino_msgs
 
 # Build rule for target.
-ament_cmake_python_copy_fairino_msgs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_fairino_msgs
-.PHONY : ament_cmake_python_copy_fairino_msgs
+ament_cmake_python_symlink_fairino_msgs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_fairino_msgs
+.PHONY : ament_cmake_python_symlink_fairino_msgs
 
 # fast build rule for target.
-ament_cmake_python_copy_fairino_msgs/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_fairino_msgs.dir/build.make CMakeFiles/ament_cmake_python_copy_fairino_msgs.dir/build
-.PHONY : ament_cmake_python_copy_fairino_msgs/fast
+ament_cmake_python_symlink_fairino_msgs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_fairino_msgs.dir/build.make CMakeFiles/ament_cmake_python_symlink_fairino_msgs.dir/build
+.PHONY : ament_cmake_python_symlink_fairino_msgs/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_fairino_msgs_egg
@@ -417,6 +417,19 @@ fairino_msgs__py: cmake_check_build_system
 fairino_msgs__py/fast:
 	$(MAKE) $(MAKESILENT) -f /home/localadmin/project/ros2-testing/ros2_ws/build/fairino_msgs/fairino_msgs__py/CMakeFiles/fairino_msgs__py.dir/build.make /home/localadmin/project/ros2-testing/ros2_ws/build/fairino_msgs/fairino_msgs__py/CMakeFiles/fairino_msgs__py.dir/build
 .PHONY : fairino_msgs__py/fast
+
+#=============================================================================
+# Target rules for targets named fairino_msgs__rs
+
+# Build rule for target.
+fairino_msgs__rs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fairino_msgs__rs
+.PHONY : fairino_msgs__rs
+
+# fast build rule for target.
+fairino_msgs__rs/fast:
+	$(MAKE) $(MAKESILENT) -f /home/localadmin/project/ros2-testing/ros2_ws/build/fairino_msgs/fairino_msgs__rs/CMakeFiles/fairino_msgs__rs.dir/build.make /home/localadmin/project/ros2-testing/ros2_ws/build/fairino_msgs/fairino_msgs__rs/CMakeFiles/fairino_msgs__rs.dir/build
+.PHONY : fairino_msgs__rs/fast
 
 rosidl_generator_c/fairino_msgs/msg/detail/robot_nonrt_state__description.o: rosidl_generator_c/fairino_msgs/msg/detail/robot_nonrt_state__description.c.o
 .PHONY : rosidl_generator_c/fairino_msgs/msg/detail/robot_nonrt_state__description.o
@@ -1224,11 +1237,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_fairino_msgs_egg"
-	@echo "... ament_cmake_python_copy_fairino_msgs"
+	@echo "... ament_cmake_python_symlink_fairino_msgs"
 	@echo "... fairino_msgs"
 	@echo "... fairino_msgs__cpp"
 	@echo "... fairino_msgs__py"
 	@echo "... fairino_msgs__rosidl_generator_type_description"
+	@echo "... fairino_msgs__rs"
 	@echo "... fairino_msgs_uninstall"
 	@echo "... uninstall"
 	@echo "... fairino_msgs__rosidl_generator_c"

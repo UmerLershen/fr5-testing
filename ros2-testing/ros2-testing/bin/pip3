@@ -1,4 +1,4 @@
-#!/home/localadmin/project/ros2-testing/ros2-testing/bin/python3.10
+#!/home/localadmin/project/ros2-testing/ros2-testing/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

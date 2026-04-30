@@ -167,7 +167,7 @@ srv_test_client: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_fa
 srv_test_client: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
 srv_test_client: /opt/ros/jazzy/lib/librmw.so
 srv_test_client: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
-srv_test_client: /opt/ros/jazzy/lib/libfastcdr.so.2.2.5
+srv_test_client: /opt/ros/jazzy/lib/libfastcdr.so.2.2.7
 srv_test_client: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 srv_test_client: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 srv_test_client: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so

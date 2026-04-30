@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="fairino_plus_ag95">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+    
+    <!-- 1. DECLARE THE NEW ARGUMENTS -->
+    <xacro:arg name="com_port" default="/dev/ttyUSB0" />
+    <xacro:arg name="use_fake_hardware" default="false" />
+
+    <!-- Import fairino_plus_ag95 urdf file -->
+    <xacro:include filename="$(find fairino_custom_control)/description/fairino5_dh_ag95_combined.xacro" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="fairino_plus_ag95.ros2_control.xacro" />
+
+    <!-- 2. PASS THE ARGUMENTS INTO THE MACRO CALL -->
+    <xacro:fairino_plus_ag95_ros2_control 
+        name="FairinoAg95Hardware" 
+        initial_positions_file="$(arg initial_positions_file)"
+        com_port="$(arg com_port)"
+        use_fake_hardware="$(arg use_fake_hardware)" />
+
+</robot>

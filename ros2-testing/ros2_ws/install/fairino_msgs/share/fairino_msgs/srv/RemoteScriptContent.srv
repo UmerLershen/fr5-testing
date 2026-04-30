@@ -1,4 +1,1 @@
-string line_str
----
-string res #创建结果反馈，0-成功，-1-失败
-
+/home/localadmin/project/ros2-testing/ros2_ws/src/fairino_msgs/srv/RemoteScriptContent.srv

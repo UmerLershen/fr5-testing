@@ -142,12 +142,12 @@ libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__ros
 libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_generator_c.so
 libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
-libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libfastcdr.so.2.2.5
+libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libfastcdr.so.2.2.7
 libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librmw.so
 libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
 libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
-libfairino_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libfairino_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.12.so
 libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libfairino_msgs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so

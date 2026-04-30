@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -168,6 +168,9 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
+
+//No help, variable specified on the command line.
+CMAKE_POSITION_INDEPENDENT_CODE:UNINITIALIZED=ON
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -408,6 +411,9 @@ rosidl_generator_cpp_DIR:PATH=/opt/ros/jazzy/share/rosidl_generator_cpp/cmake
 //The directory containing a CMake configuration file for rosidl_generator_py.
 rosidl_generator_py_DIR:PATH=/opt/ros/jazzy/share/rosidl_generator_py/cmake
 
+//The directory containing a CMake configuration file for rosidl_generator_rs.
+rosidl_generator_rs_DIR:PATH=/opt/ros/jazzy/share/rosidl_generator_rs/cmake
+
 //The directory containing a CMake configuration file for rosidl_generator_type_description.
 rosidl_generator_type_description_DIR:PATH=/opt/ros/jazzy/share/rosidl_generator_type_description/cmake
 
@@ -549,7 +555,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -595,29 +601,35 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/localadmin/project/ros2-testing/ros2-testing/bin/python3][/usr/include/python3.10][/usr/lib/x86_64-linux-gnu/libpython3.10.so][/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.10/site-packages/numpy/_core/include][cfound components: Interpreter Development NumPy Development.Module Development.Embed ][v3.10.20()]
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/localadmin/project/ros2-testing/ros2-testing/bin/python3][cfound components: Interpreter ][v3.12.3()]
 //Details about finding PythonExtra
 FIND_PACKAGE_MESSAGE_DETAILS_PythonExtra:INTERNAL=[/home/localadmin/project/ros2-testing/ros2-testing/bin/python3][/home/localadmin/project/ros2-testing/ros2-testing/bin/python3][v()]
 //The directory for Python library installation. This needs to
 // be in PYTHONPATH when 'setup.py install' is called.
-PYTHON_INSTALL_DIR:INTERNAL=lib/python3.10/site-packages
+PYTHON_INSTALL_DIR:INTERNAL=lib/python3.12/site-packages
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //Compiler reason failure
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
-_Python3_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=1753ea98497ad1c9a3dd111e679dcb36
-_Python3_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=418640b2d469127f9ac7b81185afa67d
+_Python3_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=ca5d01059675c54b1df9ae9ce33468c1
+_Python3_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=95a6b3a905b31a053078ff046e537c6d
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
 _Python3_EXECUTABLE:INTERNAL=/home/localadmin/project/ros2-testing/ros2-testing/bin/python3
 //Path to a file.
-_Python3_INCLUDE_DIR:INTERNAL=/usr/include/python3.10
+_Python3_INCLUDE_DIR:INTERNAL=/usr/include/python3.12
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;20;64;;cpython-310-x86_64-linux-gnu;abi3;/usr/lib/python3.10;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.10;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.10/site-packages;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.10/site-packages
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;;cpython-312-x86_64-linux-gnu;abi3;/usr/lib/python3.12;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.12;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.12/site-packages;/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.12/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=c38cdb79d968dbcd4fd8e1bd8d73cf3b
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //Path to a library.
-_Python3_LIBRARY_RELEASE:INTERNAL=/usr/lib/x86_64-linux-gnu/libpython3.10.so
-_Python3_NUMPY_SIGNATURE:INTERNAL=cffabf0247d727f5182703b0a632be40
+_Python3_LIBRARY_RELEASE:INTERNAL=/usr/lib/x86_64-linux-gnu/libpython3.12.so
+_Python3_NUMPY_SIGNATURE:INTERNAL=36563205f5c8e37cfba4d199b7454d3c
 //Path to a file.
-_Python3_NumPy_INCLUDE_DIR:INTERNAL=/home/localadmin/project/ros2-testing/ros2-testing/lib/python3.10/site-packages/numpy/_core/include
+_Python3_NumPy_INCLUDE_DIR:INTERNAL=/usr/lib/python3/dist-packages/numpy/core/include
+//NumPy reason failure
+_Python3_NumPy_REASON_FAILURE:INTERNAL=
+//Index for unique symlink install targets
+__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=3
 
